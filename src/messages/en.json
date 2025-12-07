@@ -1,0 +1,341 @@
+{
+    "Metadata": {
+        "siteName": "Next Commerce",
+        "description": "The best e-commerce platform.",
+        "keywords": "shopping, ecommerce"
+    },
+    "Hero": {
+        "badge": "The easiest e-commerce platform in Algeria",
+        "title": "Launch your online store",
+        "titleHighlight": "without technical experience",
+        "description": "Be among the <bold>early pioneers</bold> discovering the future of commerce with  \"Next Commerce\". Start for free today, pay only when you succeed.",
+        "ctaMain": "Try platform for free",
+        "salesTitle": "Sales this month",
+        "nextSteps": "Your next steps",
+        "step1": "Add first product",
+        "step2": "Customize design",
+        "completeSetup": "Complete setup",
+        "whatch": "See how it works"
+    },
+    "Features": {
+        "title": "Everything you need to succeed",
+        "highlight": "in one platform",
+        "description": "No need to deal with coding, hosting, or complex design. Focus on your products, and leave the rest to us.",
+        "cards": {
+            "designs": {
+                "title": "Professional Ready Designs",
+                "description": "Choose from hundreds of templates crafted to fit your brand identity. Customize colors and text with just drag and drop."
+            },
+            "mobile": {
+                "title": "Store in Your Pocket",
+                "description": "Manage orders, connect with customers, and track profits from your mobile phone via our dedicated merchant app."
+            },
+            "social": {
+                "title": "Sell Everywhere",
+                "description": "Link your store to Instagram, TikTok, and Facebook with one click. Expand your reach to new customers easily."
+            },
+            "editor": {
+                "title": "Drag & Drop Editor",
+                "description": "Change your store's look with complete ease. No need to write a single line of code. What you see is what your customer gets."
+            },
+            "speed": {
+                "title": "Blazing Speed",
+                "description": "Global cloud hosting ensures high browsing speed for your store, improving customer experience and increasing sales."
+            },
+            "analytics": {
+                "title": "Smart Reports",
+                "description": "Understand your customer behavior and know your best-selling products through a simplified and direct analytics dashboard."
+            }
+        }
+    },
+    "Simplicity": {
+        "badge": "Absolute Simplicity",
+        "title": "Design your store like arranging",
+        "titleHighlight": "your own room.",
+        "description": "Our system relies on complete flexibility. You don't need a designer or programmer to change your site's look. We simplified everything so you can launch campaigns and edit your interface in seconds.",
+        "mockup": {
+            "title": "Customize Interface",
+            "save": "Save",
+            "dragText": "Drag product image here",
+            "tip": "You can reorder sections by drag and drop"
+        },
+        "list": {
+            "rtl": "Full RTL support (Right to Left)",
+            "payment": "Local payment gateways connection",
+            "responsive": "Mobile-responsive templates",
+            "support": "24/7 technical support"
+        }
+    },
+    "Pricing": {
+        "recommendedText": "Savings option",
+        "title": "Plans that fit",
+        "titleHighlight": "your business size",
+        "description": "Start for free and subscribe when you profit. No long-term contracts or hidden fees.",
+        "free": {
+            "title": "Free Trial",
+            "price": "0 DZD",
+            "description": "Perfect for testing the platform and receiving your first orders.",
+            "button": "Start Free Now",
+            "features": {
+                "1": "Receive up to 30 orders for free",
+                "2": "Basic dashboard",
+                "3": "Customize ready templates",
+                "4": "Customer data hidden after 30 orders",
+                "5": "Custom Domain"
+            }
+        },
+        "quarterly": {
+            "title": "3 Months Plan",
+            "price": "4900 DZD",
+            "period": "/ 3 months",
+            "description": "The most economical plan for continuous growth.",
+            "button": "Subscribe & Save 20%",
+            "features": {
+                "1": "20% discount compared to monthly",
+                "2": "All monthly plan features",
+                "3": "Unlimited orders",
+                "4": "Permanent customer data visibility",
+                "5": "Priority technical support",
+                "6": "Remove platform branding"
+            }
+        },
+        "monthly": {
+            "title": "Monthly Plan",
+            "price": "1900 DZD",
+            "period": "/ month",
+            "description": "Full flexibility with simple monthly payment.",
+            "button": "Subscribe Monthly",
+            "features": {
+                "1": "Unlimited orders",
+                "2": "Customer data always available",
+                "3": "Connect custom Domain",
+                "4": "Enable online payment",
+                "5": "Advanced marketing tools"
+            }
+        }
+    },
+    "CTA": {
+        "title": "Ready to launch your store?",
+        "description": "Be among the early pioneers discovering the future of commerce with \"Next Commerce\". Start for free today, pay only when you succeed.",
+        "btnPrimary": "Create store for free",
+        "btnSecondary": "Contact us on WhatsApp"
+    },
+    "Navbar": {
+        "links": {
+            "home": "Home",
+            "features": "Features",
+            "pricing": "Pricing",
+            "about": "About Us",
+            "contact": "Contact Us",
+            "tutorial": "Tutorials"
+        },
+        "buttons": {
+            "login": "Login",
+            "startFree": "Start for Free",
+            "createStore": "Create Store Now"
+        }
+    },
+    "Footer": {
+        "description": "The premier integrated Algerian platform for creating online stores. We help you turn your idea into a real brand.",
+        "columns": {
+            "product": {
+                "title": "Product",
+                "interface": "Store Interface",
+                "pricing": "Pricing"
+            },
+            "resources": {
+                "title": "Resources",
+                "blog": "Tutorials",
+                "help": "Help Center",
+                "start": "How to start?"
+            },
+            "company": {
+                "title": "Company",
+                "about": "About Us",
+                "contact": "Contact Us",
+                "terms": "Terms & Conditions"
+            }
+        },
+        "copyright": "© {year} next_commerce.com All rights reserved.",
+        "social": {
+            "facebook": "Facebook",
+            "instagram": "Instagram",
+            "tiktok": "TikTok"
+        }
+    },
+    "About": {
+        "header": {
+            "badge": "Our Story & Ambition",
+            "title": "Empowering E-commerce",
+            "titleHighlight": "Simply & Professionally.",
+            "description": "<bold>Next Commerce</bold> is a platform designed to empower store owners and entrepreneurs to launch their online projects quickly, without technical complexity or excessive costs. Our vision is simple: anyone can open a professional online store in minutes... and start selling immediately."
+        },
+        "main": {
+            "title": "We provide tools that are",
+            "titleHighlight": "ready and smart",
+            "description": "Our platform combines speed, performance, and modern design. Whether you are a new seller or an established business owner, Next Commerce provides the solid foundation to manage your products, orders, payments, and shipping.",
+            "tag": "all in one place",
+            "speed": "Blazing Speed",
+            "security": "Integrated Security"
+        },
+        "dashboard": {
+            "title": "One Dashboard",
+            "description": "Control every detail of your store from one place. We designed the interface to be intuitive and easy for everyone."
+        },
+        "features": {
+            "badge": "Our Features",
+            "title": "What do we offer in Next Commerce?",
+            "list": {
+                "instant": {
+                    "title": "Instant Store System",
+                    "desc": "Ready-to-use store, launchable in minutes without any complexity."
+                },
+                "dashboard": {
+                    "title": "Smart Dashboard",
+                    "desc": "Comprehensive management of products and orders from one place easily."
+                },
+                "ux": {
+                    "title": "Smooth User Experience",
+                    "desc": "Thoughtful design ensuring a comfortable experience for both seller and buyer."
+                },
+                "hosting": {
+                    "title": "Security & Fast Hosting",
+                    "desc": "High data protection and hosting based on the latest web technologies."
+                },
+                "updates": {
+                    "title": "Continuous Updates",
+                    "desc": "We always work on improving performance and adding new features to match the market."
+                }
+            }
+        },
+        "vision": {
+            "title": "Our Vision",
+            "description": "Creating a digital business environment that helps entrepreneurs grow without technical restrictions, pushing e-commerce in the region to a new level of professionalism and simplicity."
+        },
+        "mission": {
+            "title": "Our Mission",
+            "description": "Providing a powerful and easy platform that opens the door for anyone wanting to enter the world of e-commerce, regardless of their technical expertise."
+        }
+    },
+    "Contact": {
+        "header": {
+            "badge": "We are here for you",
+            "title": "Contact Us",
+            "description": "Do you have an inquiry about the platform or need help setting up your store? Our team is ready to answer all your questions."
+        },
+        "channels": {
+            "title": "Communication Channels",
+            "whatsapp": "Direct Contact",
+            "facebook": "Follow our page",
+            "instagram": "Photos and updates",
+            "tiktok": "Short videos"
+        },
+        "location": {
+            "title": "Our Location",
+            "address": "Algiers, Algeria",
+            "work": "We work remotely to serve you 24/7"
+        }
+    },
+    "Privacy": {
+        "header": {
+            "title": "Privacy Policy",
+            "description": "We are committed to protecting your data and privacy. This document transparently explains how we handle your information at Next Commerce.",
+            "lastUpdate": "Last Updated: 2025/12/01"
+        },
+        "intro": {
+            "title": "1. Introduction",
+            "content": "Welcome to <bold>Next Commerce</bold> (\"we\" / \"us\" / \"our platform\"). This policy explains how we collect, use, store, and share information we obtain from users when they use our platform. By using Next Commerce, you agree to the collection and processing of your data according to the terms below."
+        },
+        "collection": {
+            "title": "2. Information We Collect",
+            "intro": "We may collect different types of information depending on how you use the platform, including for example:",
+            "list": {
+                "account": "Account Information: Name, email, phone number, address (if required), payment data (if available).",
+                "usage": "Usage Information: Your activities on the platform (stores, orders, logins, preferences).",
+                "technical": "Technical Data: IP address, browser type, operating system, browsing activity within the platform.",
+                "other": "Other information you choose to provide voluntarily, such as when contacting support or filling out surveys."
+            }
+        },
+        "usage": {
+            "title": "3. Why and How We Process Your Information",
+            "intro": "We use the information we collect for the following purposes:",
+            "list": {
+                "1": "Operating the platform and providing services (account creation, order processing).",
+                "2": "Improving user experience and analyzing behavior.",
+                "3": "For payment and billing purposes.",
+                "4": "To communicate with you (notifications, updates, technical support).",
+                "5": "For security and fraud prevention purposes.",
+                "6": "For marketing purposes (subject to your explicit consent)."
+            }
+        },
+        "sharing": {
+            "title": "4. Sharing Information with Third Parties",
+            "content": "We will not sell or rent your personal data for advertising purposes without your consent. We may share information with service providers we rely on to operate the platform (such as hosting, payment processing), or legal authorities when strictly necessary and to comply with laws."
+        },
+        "storage": {
+            "title": "5. Data Storage and Protection",
+            "content": "We retain your data only as long as necessary. We take strict technical and security measures to prevent unauthorized access. If you wish to delete your data, you can request this via official contact channels."
+        },
+        "cookies": {
+            "title": "6. Cookies",
+            "content": "We may use \"cookies\" or similar technologies to collect usage data and improve performance. You will be notified upon first entry, and may be asked for consent."
+        },
+        "rights": {
+            "title": "7. Your Rights as a User",
+            "list": {
+                "1": "Access the data we hold about you.",
+                "2": "Request correction or update of your data.",
+                "3": "Request deletion of your data or restriction of processing.",
+                "4": "Object to processing or withdraw consent."
+            }
+        },
+        "updates": {
+            "title": "8. Policy Updates",
+            "content": "We may update this policy from time to time. We will notify you of any material changes via the platform or email. It is recommended to review this page periodically."
+        },
+        "contact": {
+            "title": "9. Contact Points",
+            "question": "Have a question about your privacy?",
+            "help": "We are here to help anytime.",
+            "button": "Contact Us"
+        },
+        "footer": "© {year} Next Commerce. All rights reserved."
+    },
+    "Tutorial": {
+        "header": {
+            "badge": "Next Commerce Academy",
+            "title": "Learn how to launch and manage",
+            "titleHighlight": "your store professionally",
+            "description": "A collection of short tutorial videos to help you at every step, from registration to your first order."
+        }
+    },
+    "TutorialVideos": {
+        "searchPlaceholder": "What are you looking for? (e.g. Pixel, Product, Logo...)",
+        "categories": {
+            "all": "All",
+            "setup": "Setup & Start",
+            "design": "Design",
+            "products": "Products",
+            "management": "Store Management",
+            "marketing": "Marketing & Pixels"
+        },
+        "ui": {
+            "videoLabel": "Tutorial Video",
+            "watchNow": "Watch Now",
+            "noResults": "No results found",
+            "tryAgain": "Try a different keyword or browse all categories.",
+            "showAll": "Show All"
+        },
+        "videoTitles": {
+            "1": "How to register and create a new account",
+            "2": "Adding your store logo",
+            "5": "Customizing store design and theme",
+            "7": "Adding Categories",
+            "6": "How to add a new product",
+            "3": "Editing prices and delivery zones",
+            "4": "Managing and confirming orders",
+            "8": "Adding Facebook Pixel",
+            "9": "Adding TikTok Pixel"
+        }
+    }
+}

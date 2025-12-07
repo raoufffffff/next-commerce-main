@@ -1,0 +1,341 @@
+{
+    "Metadata": {
+        "siteName": "Next Commerce",
+        "description": "La meilleure plateforme e-commerce.",
+        "keywords": "achats, commerce électronique"
+    },
+    "Hero": {
+        "badge": "La plateforme e-commerce la plus simple en Algérie",
+        "title": "Lancez votre boutique en ligne",
+        "titleHighlight": "sans expérience technique",
+        "description": "Soyez parmi les <bold>pionniers</bold> à découvrir l'avenir du commerce avec \"Next Commerce\". Commencez gratuitement aujourd'hui, ne payez que lorsque vous réussissez.",
+        "ctaMain": "Essayer gratuitement",
+        "salesTitle": "Ventes ce mois-ci",
+        "nextSteps": "Vos prochaines étapes",
+        "step1": "Ajouter un produit",
+        "step2": "Personnaliser le design",
+        "completeSetup": "Terminer la configuration",
+        "whatch": "Voyez comment ça fonctionne"
+    },
+    "Features": {
+        "title": "Tout ce dont vous avez besoin pour réussir",
+        "highlight": "sur une seule plateforme",
+        "description": "Pas besoin de gérer le code, l'hébergement ou la conception complexe. Concentrez-vous sur vos produits, laissez-nous le reste.",
+        "cards": {
+            "designs": {
+                "title": "Designs Professionnels",
+                "description": "Choisissez parmi des centaines de modèles conçus pour votre image de marque. Personnalisez les couleurs et le texte par simple glisser-déposer."
+            },
+            "mobile": {
+                "title": "Votre Boutique en Poche",
+                "description": "Gérez les commandes, communiquez avec les clients et suivez vos bénéfices depuis votre mobile via notre application dédiée."
+            },
+            "social": {
+                "title": "Vendez Partout",
+                "description": "Liez votre boutique à Instagram, TikTok et Facebook en un clic. Élargissez facilement votre portée à de nouveaux clients."
+            },
+            "editor": {
+                "title": "Éditeur Glisser-Déposer",
+                "description": "Changez l'apparence de votre boutique en toute simplicité. Aucune ligne de code requise. Ce que vous voyez est ce que le client obtient."
+            },
+            "speed": {
+                "title": "Vitesse Fulgurante",
+                "description": "Un hébergement cloud mondial garantissant une vitesse de navigation élevée, améliorant l'expérience client et augmentant les ventes."
+            },
+            "analytics": {
+                "title": "Rapports Intelligents",
+                "description": "Comprenez le comportement de vos clients et connaissez vos produits les plus vendus grâce à un tableau de bord analytique simplifié."
+            }
+        }
+    },
+    "Simplicity": {
+        "badge": "Simplicité Absolue",
+        "title": "Concevez votre boutique comme",
+        "titleHighlight": "votre propre chambre.",
+        "description": "Notre système repose sur une flexibilité totale. Pas besoin de designer ou de programmeur pour changer l'apparence. Nous avons tout simplifié pour que vous puissiez modifier votre interface en quelques secondes.",
+        "mockup": {
+            "title": "Personnaliser l'interface",
+            "save": "Enregistrer",
+            "dragText": "Glissez l'image produit ici",
+            "tip": "Réorganisez les sections par glisser-déposer"
+        },
+        "list": {
+            "rtl": "Support complet RTL (Arabe)",
+            "payment": "Connexion aux paiements locaux",
+            "responsive": "Modèles adaptés aux mobiles",
+            "support": "Support technique 24/7"
+        }
+    },
+    "Pricing": {
+        "recommendedText": "Option d'épargne",
+        "title": "Des plans adaptés à",
+        "titleHighlight": "la taille de votre commerce",
+        "description": "Commencez gratuitement et abonnez-vous quand vous gagnez. Pas de contrats à long terme ni de frais cachés.",
+        "free": {
+            "title": "Essai Gratuit",
+            "price": "0 DZD",
+            "description": "Parfait pour tester la plateforme et recevoir vos premières commandes.",
+            "button": "Commencer Gratuitement",
+            "features": {
+                "1": "Recevez jusqu'à 30 commandes gratuitement",
+                "2": "Tableau de bord de base",
+                "3": "Personnaliser les modèles prêts",
+                "4": "Données clients masquées après 30 commandes",
+                "5": "Nom de domaine personnalisé"
+            }
+        },
+        "quarterly": {
+            "title": "Pack 3 Mois",
+            "price": "4900 DZD",
+            "period": "/ 3 mois",
+            "description": "Le plan le plus économique pour une croissance continue.",
+            "button": "S'abonner et économiser 20%",
+            "features": {
+                "1": "20% de réduction par rapport au mensuel",
+                "2": "Toutes les fonctionnalités mensuelles",
+                "3": "Commandes illimitées",
+                "4": "Visibilité permanente des données clients",
+                "5": "Support technique prioritaire",
+                "6": "Supprimer la marque de la plateforme"
+            }
+        },
+        "monthly": {
+            "title": "Pack Mensuel",
+            "price": "1900 DZD",
+            "period": "/ mois",
+            "description": "Flexibilité totale avec un paiement mensuel simple.",
+            "button": "S'abonner Mensuellement",
+            "features": {
+                "1": "Commandes illimitées",
+                "2": "Données clients toujours disponibles",
+                "3": "Connecter un domaine personnalisé",
+                "4": "Activer le paiement en ligne",
+                "5": "Outils marketing avancés"
+            }
+        }
+    },
+    "CTA": {
+        "title": "Prêt à lancer votre boutique ?",
+        "description": "Soyez parmi les premiers pionniers à découvrir l'avenir du commerce avec \"Next Commerce\". Commencez gratuitement aujourd'hui, ne payez que lorsque vous réussissez.",
+        "btnPrimary": "Créer une boutique gratuite",
+        "btnSecondary": "Contactez-nous sur WhatsApp"
+    },
+    "Navbar": {
+        "links": {
+            "home": "Accueil",
+            "features": "Fonctionnalités",
+            "pricing": "Tarifs",
+            "about": "À propos",
+            "contact": "Contact",
+            "tutorial": "Tutoriels"
+        },
+        "buttons": {
+            "login": "Connexion",
+            "startFree": "Commencer",
+            "createStore": "Créer votre boutique"
+        }
+    },
+    "Footer": {
+        "description": "La première plateforme algérienne intégrée pour créer des boutiques en ligne. Nous vous aidons à transformer votre idée en une véritable marque.",
+        "columns": {
+            "product": {
+                "title": "Produit",
+                "interface": "Interface Boutique",
+                "pricing": "Tarifs"
+            },
+            "resources": {
+                "title": "Ressources",
+                "blog": "Tutoriels",
+                "help": "Centre d'aide",
+                "start": "Comment commencer ?"
+            },
+            "company": {
+                "title": "Entreprise",
+                "about": "À propos",
+                "contact": "Contact",
+                "terms": "Conditions générales"
+            }
+        },
+        "copyright": "© {year} next_commerce.com Tous droits réservés.",
+        "social": {
+            "facebook": "Facebook",
+            "instagram": "Instagram",
+            "tiktok": "TikTok"
+        }
+    },
+    "About": {
+        "header": {
+            "badge": "Notre Histoire & Ambition",
+            "title": "Propulser le E-commerce",
+            "titleHighlight": "Simplement & Professionnellement.",
+            "description": "<bold>Next Commerce</bold> est une plateforme conçue pour permettre aux commerçants et entrepreneurs de lancer leurs projets en ligne rapidement, sans complexité technique ni coûts excessifs. Notre vision est simple : n'importe qui peut ouvrir une boutique en ligne professionnelle en quelques minutes... et commencer à vendre immédiatement."
+        },
+        "main": {
+            "title": "Nous fournissons des outils",
+            "titleHighlight": "prêts et intelligents",
+            "description": "Notre plateforme allie vitesse, performance et design moderne. Que vous soyez un nouveau vendeur ou un chef d'entreprise établi, Next Commerce fournit la base solide pour gérer vos produits, commandes, paiements et expéditions.",
+            "tag": "tout au même endroit",
+            "speed": "Vitesse Fulgurante",
+            "security": "Sécurité Intégrée"
+        },
+        "dashboard": {
+            "title": "Un Tableau de Bord",
+            "description": "Contrôlez chaque détail de votre boutique depuis un seul endroit. Nous avons conçu l'interface pour être intuitive et facile pour tous."
+        },
+        "features": {
+            "badge": "Nos Fonctionnalités",
+            "title": "Que proposons-nous chez Next Commerce ?",
+            "list": {
+                "instant": {
+                    "title": "Système de Boutique Instantané",
+                    "desc": "Boutique prête à l'emploi, lançable en quelques minutes sans complexité."
+                },
+                "dashboard": {
+                    "title": "Tableau de Bord Intelligent",
+                    "desc": "Gestion complète des produits et des commandes depuis un seul endroit facilement."
+                },
+                "ux": {
+                    "title": "Expérience Utilisateur Fluide",
+                    "desc": "Conception réfléchie assurant une expérience confortable pour le vendeur et l'acheteur."
+                },
+                "hosting": {
+                    "title": "Sécurité & Hébergement Rapide",
+                    "desc": "Haute protection des données et hébergement basé sur les dernières technologies web."
+                },
+                "updates": {
+                    "title": "Mises à Jour Continues",
+                    "desc": "Nous travaillons toujours à améliorer les performances et à ajouter de nouvelles fonctionnalités."
+                }
+            }
+        },
+        "vision": {
+            "title": "Notre Vision",
+            "description": "Créer un environnement commercial numérique qui aide les entrepreneurs à se développer sans restrictions techniques, propulsant le commerce électronique de la région vers un nouveau niveau de professionnalisme."
+        },
+        "mission": {
+            "title": "Notre Mission",
+            "description": "Fournir une plateforme puissante et facile qui ouvre la porte à toute personne souhaitant entrer dans le monde du e-commerce, quelle que soit son expertise technique."
+        }
+    },
+    "Contact": {
+        "header": {
+            "badge": "Nous sommes là pour vous",
+            "title": "Contactez-nous",
+            "description": "Avez-vous une question sur la plateforme ou besoin d'aide pour configurer votre boutique ? Notre équipe est prête à répondre à toutes vos questions."
+        },
+        "channels": {
+            "title": "Canaux de communication",
+            "whatsapp": "Contact direct",
+            "facebook": "Suivez notre page",
+            "instagram": "Photos et actualités",
+            "tiktok": "Vidéos courtes"
+        },
+        "location": {
+            "title": "Notre Siège",
+            "address": "Alger, Algérie",
+            "work": "Nous travaillons à distance pour vous servir 24/7"
+        }
+    },
+    "Privacy": {
+        "header": {
+            "title": "Politique de Confidentialité",
+            "description": "Nous nous engageons à protéger vos données et votre vie privée. Ce document explique en toute transparence comment nous traitons vos informations chez Next Commerce.",
+            "lastUpdate": "Dernière mise à jour : 01/12/2025"
+        },
+        "intro": {
+            "title": "1. Introduction",
+            "content": "Bienvenue sur <bold>Next Commerce</bold> (\"nous\" / \"notre plateforme\"). Cette politique explique comment nous collectons, utilisons, stockons et partageons les informations obtenues des utilisateurs lorsqu'ils utilisent notre plateforme. En utilisant Next Commerce, vous acceptez la collecte et le traitement de vos données conformément aux conditions ci-dessous."
+        },
+        "collection": {
+            "title": "2. Informations que nous collectons",
+            "intro": "Nous pouvons collecter différents types d'informations selon votre utilisation de la plateforme, notamment :",
+            "list": {
+                "account": "Informations de compte : Nom, email, numéro de téléphone, adresse (si requis), données de paiement (si disponibles).",
+                "usage": "Informations d'utilisation : Vos activités sur la plateforme (boutiques, commandes, connexions, préférences).",
+                "technical": "Données techniques : Adresse IP, type de navigateur, système d'exploitation, activité de navigation au sein de la plateforme.",
+                "other": "Autres informations que vous choisissez de fournir volontairement, comme lors d'un contact avec le support ou en remplissant des enquêtes."
+            }
+        },
+        "usage": {
+            "title": "3. Pourquoi et comment nous traitons vos informations",
+            "intro": "Nous utilisons les informations collectées aux fins suivantes :",
+            "list": {
+                "1": "Exploiter la plateforme et fournir des services (création de compte, traitement des commandes).",
+                "2": "Améliorer l'expérience utilisateur et analyser le comportement.",
+                "3": "À des fins de paiement et de facturation.",
+                "4": "Pour communiquer avec vous (notifications, mises à jour, support technique).",
+                "5": "À des fins de sécurité et de prévention de la fraude.",
+                "6": "À des fins marketing (sous réserve de votre consentement explicite)."
+            }
+        },
+        "sharing": {
+            "title": "4. Partage d'informations avec des tiers",
+            "content": "Nous ne vendrons ni ne louerons vos données personnelles à des fins publicitaires sans votre consentement. Nous pouvons partager des informations avec des prestataires de services sur lesquels nous comptons pour faire fonctionner la plateforme (comme l'hébergement, le traitement des paiements), ou des autorités légales lorsque cela est strictement nécessaire et pour se conformer aux lois."
+        },
+        "storage": {
+            "title": "5. Stockage et Protection des Données",
+            "content": "Nous conservons vos données uniquement le temps nécessaire. Nous prenons des mesures techniques et de sécurité strictes pour empêcher tout accès non autorisé. Si vous souhaitez supprimer vos données, vous pouvez en faire la demande via les canaux de contact officiels."
+        },
+        "cookies": {
+            "title": "6. Cookies",
+            "content": "Nous pouvons utiliser des \"cookies\" ou des technologies similaires pour collecter des données d'utilisation et améliorer les performances. Vous serez notifié lors de votre première entrée, et il pourra vous être demandé votre consentement."
+        },
+        "rights": {
+            "title": "7. Vos droits en tant qu'utilisateur",
+            "list": {
+                "1": "Accéder aux données que nous détenons sur vous.",
+                "2": "Demander la correction ou la mise à jour de vos données.",
+                "3": "Demander la suppression de vos données ou la limitation du traitement.",
+                "4": "S'opposer au traitement ou retirer le consentement."
+            }
+        },
+        "updates": {
+            "title": "8. Mises à jour de la politique",
+            "content": "Nous pouvons mettre à jour cette politique de temps à autre. Nous vous informerons de tout changement important via la plateforme ou par email. Il est recommandé de consulter cette page périodiquement."
+        },
+        "contact": {
+            "title": "9. Points de Contact",
+            "question": "Une question sur votre confidentialité ?",
+            "help": "Nous sommes là pour vous aider à tout moment.",
+            "button": "Contactez-nous"
+        },
+        "footer": "© {year} Next Commerce. Tous droits réservés."
+    },
+    "Tutorial": {
+        "header": {
+            "badge": "Académie Next Commerce",
+            "title": "Apprenez à lancer et gérer",
+            "titleHighlight": "votre boutique professionnellement",
+            "description": "Une collection de courtes vidéos tutorielles pour vous aider à chaque étape, de l'inscription à la première commande."
+        }
+    },
+    "TutorialVideos": {
+        "searchPlaceholder": "Que cherchez-vous ? (ex. Pixel, Produit, Logo...)",
+        "categories": {
+            "all": "Tout",
+            "setup": "Configuration & Début",
+            "design": "Design",
+            "products": "Produits",
+            "management": "Gestion",
+            "marketing": "Marketing & Pixels"
+        },
+        "ui": {
+            "videoLabel": "Vidéo Tutoriel",
+            "watchNow": "Regarder maintenant",
+            "noResults": "Aucun résultat trouvé",
+            "tryAgain": "Essayez un autre mot-clé ou parcourez toutes les catégories.",
+            "showAll": "Tout afficher"
+        },
+        "videoTitles": {
+            "1": "Comment s'inscrire et créer un nouveau compte",
+            "2": "Ajouter le logo de votre boutique",
+            "5": "Personnaliser le design et le thème",
+            "7": "Ajouter des catégories",
+            "6": "Comment ajouter un nouveau produit",
+            "3": "Modifier les prix et zones de livraison",
+            "4": "Gérer et confirmer les commandes",
+            "8": "Ajouter le Pixel Facebook",
+            "9": "Ajouter le Pixel TikTok"
+        }
+    }
+}
