@@ -30,8 +30,8 @@ export async function generateMetadata(props) {
     },
     description: t("description"),
     keywords: t("keywords").split(","),
-    authors: [{ name: "Your Name", url: "https://yourwebsite.com" }],
-    metadataBase: new URL("https://yourwebsite.com"),
+    authors: [{ name: "raouf hamoudi", url: "https://next-commerce-platform.vercel.app" }],
+    metadataBase: new URL("https://next-commerce-platform.vercel.app"),
 
     icons: {
       icon: "/favicon.ico",
@@ -42,7 +42,7 @@ export async function generateMetadata(props) {
     openGraph: {
       title: t("siteName"),
       description: t("description"),
-      url: `https://yourwebsite.com/${locale}`,
+      url: `https://next-commerce-platform.vercel.app/${locale}`,
       siteName: t("siteName"),
       images: [
         {
