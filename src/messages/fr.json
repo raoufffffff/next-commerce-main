@@ -85,9 +85,9 @@
             }
         },
         "quarterly": {
-            "title": "Pack 3 Mois",
+            "title": "Pack 4 Mois",
             "price": "4900 DZD",
-            "period": "/ 3 mois",
+            "period": "/ 4 mois",
             "description": "Le plan le plus économique pour une croissance continue.",
             "button": "S'abonner et économiser 20%",
             "features": {

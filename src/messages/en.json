@@ -85,9 +85,9 @@
             }
         },
         "quarterly": {
-            "title": "3 Months Plan",
+            "title": "4 Months Plan",
             "price": "4900 DZD",
-            "period": "/ 3 months",
+            "period": "/ 4 months",
             "description": "The most economical plan for continuous growth.",
             "button": "Subscribe & Save 20%",
             "features": {
