@@ -1,5 +1,5 @@
 "use client";
-
+import * as fbq from '@/lib/fpixel';
 import { useEffect, useState } from "react";
 import { Menu, X, ArrowLeft } from "lucide-react";
 import { motion } from "framer-motion";
@@ -13,6 +13,14 @@ export const Navbar = () => {
     const t = useTranslations("Navbar");
     const [scrolled, setScrolled] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const handleSignupClick = () => {
+        fbq.event('CompleteRegistration', { // Changed to CompleteRegistration (Standard for Signups)
+            content_name: 'Start Free Button',
+            status: 'click'
+        });
+    };
+
+    // 2. Login Handler (New)
 
     // Scroll Logic for Search Params
     const searchParams = useSearchParams();
@@ -71,6 +79,7 @@ export const Navbar = () => {
 
                     <a
                         target='_blank'
+                        onClick={handleSignupClick}
                         href="https://custem-dashboard.onrender.com/login"
                         rel="noreferrer"
                         className="text-sm font-medium text-gray-600 hover:text-teal-500 transition-colors">
@@ -78,6 +87,7 @@ export const Navbar = () => {
                     </a>
                     <a
                         target='_blank'
+                        onClick={handleSignupClick}
                         href='https://custem-dashboard.onrender.com/sinin'
                         rel="noreferrer"
                         className="group relative px-6 py-2.5 bg-gray-900 hover:bg-gray-800 rounded-full text-sm font-medium text-white transition-all shadow-lg shadow-gray-900/20">
@@ -126,6 +136,7 @@ export const Navbar = () => {
                         target='_blank'
                         href='https://custem-dashboard.onrender.com/sinin'
                         rel="noreferrer"
+                        onClick={handleSignupClick}
                         className="w-full py-3 bg-gradient-to-r from-teal-500 to-purple-600 rounded-xl text-white font-bold shadow-lg shadow-purple-500/30 text-center"
                     >
                         {t('buttons.createStore')}

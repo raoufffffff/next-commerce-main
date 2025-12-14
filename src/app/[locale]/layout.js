@@ -1,10 +1,12 @@
+import { FB_PIXEL_ID } from '@/lib/fpixel';
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getTranslations, getMessages } from "next-intl/server"; // 👈 Added getMessages
 import { Navbar } from "@/components/Header";
 import Footer from "@/components/Footer";
-
+import Script from "next/script";
+import PixelEvents from '@/components/PixelEvents';
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -82,10 +84,31 @@ export default async function RootLayout(props) {
 
   return (
     <html lang={locale} dir={dir}>
+      <head>
+        <Script
+          id="fb-pixel"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              !function(f,b,e,v,n,t,s)
+              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+              n.queue=[];t=b.createElement(e);t.async=!0;
+              t.src=v;s=b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t,s)}(window, document,'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+              fbq('init', '${FB_PIXEL_ID}');
+              fbq('track', 'PageView');
+            `,
+          }}
+        />
+      </head>
       <body
         dir={dir}
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <PixelEvents />
         {/* 👈 Pass messages to the provider */}
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
