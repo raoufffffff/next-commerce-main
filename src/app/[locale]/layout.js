@@ -7,6 +7,7 @@ import { Navbar } from "@/components/Header";
 import Footer from "@/components/Footer";
 import Script from "next/script";
 import PixelEvents from '@/components/PixelEvents';
+import ClarityAnalytics from '@/components/ClarityAnalytics';
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -109,6 +110,7 @@ export default async function RootLayout(props) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <PixelEvents />
+        <ClarityAnalytics />
         {/* 👈 Pass messages to the provider */}
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />

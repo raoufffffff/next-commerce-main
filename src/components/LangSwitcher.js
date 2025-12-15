@@ -52,20 +52,25 @@ export default function LangSwitcher() {
                             animate={{ opacity: 1, y: 0, scale: 1 }}
                             exit={{ opacity: 0, y: 10, scale: 0.95 }}
                             transition={{ duration: 0.2 }}
-                            className="absolute top-full mt-2 left-0 md:left-auto md:right-0 w-40 bg-white rounded-xl shadow-xl border border-gray-100 py-2 z-50 overflow-hidden"
+                            // 🔥 FIXED: Changed left-0 to right-0 for mobile to prevent overflow
+                            // Also added min-w-[150px] for better text space
+                            className="absolute top-full mt-2 right-0 md:left-auto md:right-0 min-w-[160px] bg-white rounded-xl shadow-xl border border-gray-100 py-2 z-50 overflow-hidden"
                         >
                             {languages.map((lang) => (
                                 <button
                                     key={lang.code}
                                     onClick={() => handleSelect(lang.code)}
                                     disabled={isPending}
-                                    className={`w-full flex items-center justify-between px-4 py-2.5 text-sm hover:bg-gray-50 transition-colors ${locale === lang.code
+                                    className={`w-full flex items-center gap-3 px-4 py-2.5 text-sm hover:bg-gray-50 transition-colors ${locale === lang.code
                                         ? "text-teal-600 font-bold bg-teal-50/50"
                                         : "text-gray-700"
                                         }`}
                                     dir={lang.dir}
                                 >
-                                    <span>{lang.label}</span>
+                                    {/* 🔥 FIXED: Added flex-1 and text-start to force text visibility */}
+                                    <span className="flex-1 text-start">{lang.label}</span>
+
+                                    {/* Check Icon stays at the end because of flex-row behavior in RTL/LTR */}
                                     {locale === lang.code && <Check size={16} />}
                                 </button>
                             ))}
