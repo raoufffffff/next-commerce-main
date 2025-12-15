@@ -1,4 +1,5 @@
 import { FB_PIXEL_ID } from '@/lib/fpixel';
+import { Analytics } from '@vercel/analytics/next';
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
@@ -109,6 +110,7 @@ export default async function RootLayout(props) {
         dir={dir}
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Analytics />
         <PixelEvents />
         <ClarityAnalytics />
         {/* 👈 Pass messages to the provider */}
