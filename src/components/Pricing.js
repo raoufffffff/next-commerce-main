@@ -20,6 +20,7 @@ const Pricing = async () => {
 
                     {/* Free Plan */}
                     <PricingCard
+                        evantPixal={"add to wishlist"}
                         title={t('free.title')}
                         price={t('free.price')}
                         period=""
@@ -37,6 +38,9 @@ const Pricing = async () => {
 
                     {/* Quarterly Plan (Recommended) */}
                     <PricingCard
+                        evantPixal={"Initiate checkout"}
+
+
                         title={t('quarterly.title')}
                         price={t('quarterly.price')}
                         period={t('quarterly.period')}
@@ -57,6 +61,8 @@ const Pricing = async () => {
 
                     {/* Monthly Plan */}
                     <PricingCard
+                        evantPixal={"Initiate checkout"}
+
                         title={t('monthly.title')}
                         price={t('monthly.price')}
                         period={t('monthly.period')}

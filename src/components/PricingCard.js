@@ -1,7 +1,14 @@
+"use client"
 import React from 'react'
 import { Star, CheckCircle2, AlertCircle } from 'lucide-react';
 
-const PricingCard = ({ title, price, period, description, features, recommended = false, buttonText, buttonVariant, recommendedText }) => {
+const PricingCard = ({ title, price, period, description, features, recommended = false, buttonText, buttonVariant, recommendedText, evantPixal }) => {
+    const handlePixalClick = (a) => {
+        fbq.event(a, { // Changed to CompleteRegistration (Standard for Signups)
+            content_name: 'Start Free Button',
+            status: 'click'
+        });
+    };
     return (
         <div className={`relative flex flex-col p-8 rounded-3xl transition-all duration-300 ${recommended ? 'bg-gray-900 text-white shadow-2xl scale-105 border border-gray-800 z-10' : 'bg-white border border-gray-100 hover:border-purple-200 hover:shadow-xl'}`}>
             {recommended && (
@@ -34,8 +41,10 @@ const PricingCard = ({ title, price, period, description, features, recommended 
             </ul>
 
             <a
+                onClick={() => handlePixalClick(evantPixal)}
+
                 target='_blank'
-                href='https://custem-dashboard.onrender.com/upgrade'
+                href='https://app.next-commerce.shop/upgrade'
                 className={`w-full py-4 rounded-xl font-bold transition-all text-center ${buttonVariant === 'primary'
                     ? 'bg-purple-600 hover:bg-purple-700 text-white shadow-lg shadow-purple-600/30'
                     : (recommended ? 'bg-white text-gray-900 hover:bg-gray-100' : 'bg-teal-50 text-teal-700 hover:bg-teal-100')

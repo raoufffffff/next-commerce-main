@@ -68,7 +68,7 @@ const Footer = async () => {
                             <li>
                                 <a
                                     target="_blank"
-                                    href="https://custem-dashboard.onrender.com/"
+                                    href="https://app.next-commerce.shop/"
                                     className="hover:text-teal-500"
                                     rel="noreferrer"
                                 >

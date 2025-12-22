@@ -13,8 +13,8 @@ export const Navbar = () => {
     const t = useTranslations("Navbar");
     const [scrolled, setScrolled] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const handleSignupClick = () => {
-        fbq.event('CompleteRegistration', { // Changed to CompleteRegistration (Standard for Signups)
+    const handlePixalClick = (a) => {
+        fbq.event(a, { // Changed to CompleteRegistration (Standard for Signups)
             content_name: 'Start Free Button',
             status: 'click'
         });
@@ -79,16 +79,16 @@ export const Navbar = () => {
 
                     <a
                         target='_blank'
-                        onClick={handleSignupClick}
-                        href="https://custem-dashboard.onrender.com/login"
+                        onClick={() => handlePixalClick("CompleteRegistration")}
+                        href="https://app.next-commerce.shop/login"
                         rel="noreferrer"
                         className="text-sm font-medium text-gray-600 hover:text-teal-500 transition-colors">
                         {t('buttons.login')}
                     </a>
                     <a
                         target='_blank'
-                        onClick={handleSignupClick}
-                        href='https://custem-dashboard.onrender.com/sinin'
+                        onClick={() => handlePixalClick("CompleteRegistration")}
+                        href='https://app.next-commerce.shop/sinin'
                         rel="noreferrer"
                         className="group relative px-6 py-2.5 bg-gray-900 hover:bg-gray-800 rounded-full text-sm font-medium text-white transition-all shadow-lg shadow-gray-900/20">
                         <span className="absolute inset-0 rounded-full bg-gradient-to-r from-teal-500 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -134,9 +134,9 @@ export const Navbar = () => {
 
                     <a
                         target='_blank'
-                        href='https://custem-dashboard.onrender.com/sinin'
+                        href='https://app.next-commerce.shop/sinin'
                         rel="noreferrer"
-                        onClick={handleSignupClick}
+                        onClick={() => handlePixalClick("CompleteRegistration")}
                         className="w-full py-3 bg-gradient-to-r from-teal-500 to-purple-600 rounded-xl text-white font-bold shadow-lg shadow-purple-500/30 text-center"
                     >
                         {t('buttons.createStore')}

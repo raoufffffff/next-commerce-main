@@ -19,7 +19,7 @@ const CTA = async () => {
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                     <a
                         target='_blank'
-                        href='https://custem-dashboard.onrender.com/sinin'
+                        href='https://app.next-commerces.shop/sinin'
                         rel="noreferrer"
                         className="w-full sm:w-auto px-10 py-4 bg-white text-gray-900 font-bold rounded-full hover:scale-105 transition-transform shadow-lg shadow-white/10">
                         {t('btnPrimary')}

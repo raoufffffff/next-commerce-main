@@ -4,11 +4,16 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useSearchParams } from "next/navigation";
 
-const VideoModel = ({ text }) => {
+const VideoModel = ({ text, link }) => {
     // State to manage the video modal visibility
     const [isVideoOpen, setIsVideoOpen] = useState(false);
     const searchParams = useSearchParams();
-
+    const handlePixalClick = (a) => {
+        fbq.event(a, { // Changed to CompleteRegistration (Standard for Signups)
+            content_name: 'Start Free Button',
+            status: 'click'
+        });
+    };
     // ... your existing state (scrolled, mobileMenuOpen, etc.)
 
     useEffect(() => {
@@ -34,8 +39,21 @@ const VideoModel = ({ text }) => {
 
     return (
         <>
+            <a
+                onClick={() => handlePixalClick("schedule")}
+                target='_blank'
+                href='https://app.next-commerce.shop/sinin'
+                rel="noreferrer"
+                className="w-full sm:w-auto px-10 py-4 rounded-full bg-gray-900 text-white font-bold hover:bg-gray-800 transition-all shadow-xl shadow-purple-500/20 hover:shadow-purple-500/30 hover:-translate-y-1 relative overflow-hidden group">
+                <span className="absolute inset-0 bg-gradient-to-r from-teal-500 to-purple-600 opacity-100 group-hover:opacity-90 transition-opacity" />
+                <span className="relative">{link}</span>
+            </a>
             <button
-                onClick={() => setIsVideoOpen(true)}
+                onClick={() => {
+                    handlePixalClick("View content")
+
+                    setIsVideoOpen(true)
+                }}
                 className="w-full sm:w-auto px-10 py-4 rounded-full bg-white border border-gray-200 text-gray-700 font-medium hover:bg-gray-50 transition-colors flex items-center justify-center gap-2 hover:border-gray-300 hover:text-purple-600 group"
             >
                 {text}

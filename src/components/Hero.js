@@ -44,16 +44,9 @@ const Hero = async () => {
 
                 {/* CTAs */}
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <a
-                        target='_blank'
-                        href='https://custem-dashboard.onrender.com/sinin'
-                        rel="noreferrer"
-                        className="w-full sm:w-auto px-10 py-4 rounded-full bg-gray-900 text-white font-bold hover:bg-gray-800 transition-all shadow-xl shadow-purple-500/20 hover:shadow-purple-500/30 hover:-translate-y-1 relative overflow-hidden group">
-                        <span className="absolute inset-0 bg-gradient-to-r from-teal-500 to-purple-600 opacity-100 group-hover:opacity-90 transition-opacity" />
-                        <span className="relative">{t('ctaMain')}</span>
-                    </a>
 
-                    <VideoModel text={t('whatch')} />
+
+                    <VideoModel link={t('ctaMain')} text={t('whatch')} />
                 </div>
 
                 {/* Dashboard Illustration */}
