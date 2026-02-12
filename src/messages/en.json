@@ -77,21 +77,22 @@
             "description": "Perfect for testing the platform and receiving your first orders.",
             "button": "Start Free Now",
             "features": {
-                "1": "Receive up to 30 orders for free",
+                "1": "Receive up to 10 orders for free",
                 "2": "Basic dashboard",
                 "3": "Customize ready templates",
-                "4": "Customer data hidden after 30 orders",
+                "4": "Customer data hidden after 10 orders",
                 "5": "Custom Domain"
             }
         },
         "quarterly": {
-            "title": "4 Months Plan",
-            "price": "4900 DZD",
-            "period": "/ 4 months",
+            "title": "Months pro Plan",
+            "price": "1900 DZD",
+            "oldproce": "2500 DZD",
+            "period": "for month",
             "description": "The most economical plan for continuous growth.",
-            "button": "Subscribe & Save 20%",
+            "button": "Subscribe & Save 40%",
             "features": {
-                "1": "20% discount compared to monthly",
+                "1": "40% discount compared to monthly",
                 "2": "All monthly plan features",
                 "3": "Unlimited orders",
                 "4": "Permanent customer data visibility",
@@ -101,13 +102,14 @@
         },
         "monthly": {
             "title": "Monthly Plan",
-            "price": "1900 DZD",
-            "period": "/ month",
+            "price": "900 DZD",
+            "oldproce": "1500 DZD",
+            "period": "for month",
             "description": "Full flexibility with simple monthly payment.",
-            "button": "Subscribe Monthly",
+            "button": "Subscribe & Save 30%",
             "features": {
-                "1": "Unlimited orders",
-                "2": "Customer data always available",
+                "2": "Receive up to 290 orders",
+                "1": "30% discount compared to monthly",
                 "3": "Connect custom Domain",
                 "4": "Enable online payment",
                 "5": "Advanced marketing tools"

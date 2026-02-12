@@ -77,21 +77,22 @@
             "description": "Parfait pour tester la plateforme et recevoir vos premières commandes.",
             "button": "Commencer Gratuitement",
             "features": {
-                "1": "Recevez jusqu'à 30 commandes gratuitement",
+                "1": "Recevez jusqu'à 10 commandes gratuitement",
                 "2": "Tableau de bord de base",
                 "3": "Personnaliser les modèles prêts",
-                "4": "Données clients masquées après 30 commandes",
+                "4": "Données clients masquées après 10 commandes",
                 "5": "Nom de domaine personnalisé"
             }
         },
         "quarterly": {
-            "title": "Pack 4 Mois",
-            "price": "4900 DZD",
-            "period": "/ 4 mois",
+            "title": "Pack pro",
+            "price": "1900 DZD",
+            "oldproce": "2500 DZD",
+            "period": "per mois",
             "description": "Le plan le plus économique pour une croissance continue.",
-            "button": "S'abonner et économiser 20%",
+            "button": "S'abonner et économiser 40%",
             "features": {
-                "1": "20% de réduction par rapport au mensuel",
+                "1": "40% de réduction par rapport au mensuel",
                 "2": "Toutes les fonctionnalités mensuelles",
                 "3": "Commandes illimitées",
                 "4": "Visibilité permanente des données clients",
@@ -101,13 +102,14 @@
         },
         "monthly": {
             "title": "Pack Mensuel",
-            "price": "1900 DZD",
-            "period": "/ mois",
+            "price": "990 DZD",
+            "oldproce": "1500 DZD",
+            "period": "per mois",
             "description": "Flexibilité totale avec un paiement mensuel simple.",
-            "button": "S'abonner Mensuellement",
+            "button": "S'abonner et économiser 30%",
             "features": {
-                "1": "Commandes illimitées",
-                "2": "Données clients toujours disponibles",
+                "2": "Recevez jusqu'à 290 commandes",
+                "1": "30% de réduction par rapport au mensuel",
                 "3": "Connecter un domaine personnalisé",
                 "4": "Activer le paiement en ligne",
                 "5": "Outils marketing avancés"

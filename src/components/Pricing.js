@@ -43,6 +43,7 @@ const Pricing = async () => {
 
                         title={t('quarterly.title')}
                         price={t('quarterly.price')}
+                        oldprice={t('quarterly.oldproce')}
                         period={t('quarterly.period')}
                         description={t('quarterly.description')}
                         recommended={true}
@@ -55,7 +56,7 @@ const Pricing = async () => {
                             { text: t('quarterly.features.3') },
                             { text: t('quarterly.features.4') },
                             { text: t('quarterly.features.5') },
-                            { text: t('quarterly.features.6') },
+                            // { text: t('quarterly.features.6') },
                         ]}
                     />
 
@@ -65,6 +66,7 @@ const Pricing = async () => {
 
                         title={t('monthly.title')}
                         price={t('monthly.price')}
+                        oldprice={t('monthly.oldproce')}
                         period={t('monthly.period')}
                         description={t('monthly.description')}
                         buttonText={t('monthly.button')}
@@ -74,7 +76,7 @@ const Pricing = async () => {
                             { text: t('monthly.features.2') },
                             { text: t('monthly.features.3') },
                             { text: t('monthly.features.4') },
-                            { text: t('monthly.features.5') },
+                            // { text: t('monthly.features.5') },
                         ]}
                     />
 

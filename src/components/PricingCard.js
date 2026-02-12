@@ -2,7 +2,7 @@
 import React from 'react'
 import { Star, CheckCircle2, AlertCircle } from 'lucide-react';
 
-const PricingCard = ({ title, price, period, description, features, recommended = false, buttonText, buttonVariant, recommendedText, evantPixal }) => {
+const PricingCard = ({ title, price, period, description, features, recommended = false, buttonText, buttonVariant, recommendedText, evantPixal, oldprice }) => {
     const handlePixalClick = (a) => {
         fbq.event(a, { // Changed to CompleteRegistration (Standard for Signups)
             content_name: 'Start Free Button',
@@ -22,11 +22,15 @@ const PricingCard = ({ title, price, period, description, features, recommended 
                 <p className={`text-sm ${recommended ? 'text-gray-400' : 'text-gray-500'}`}>{description}</p>
             </div>
 
-            <div className="mb-8 flex items-baseline">
+            <div className="mb-2 flex items-baseline">
                 <span className={`text-4xl  font-black ${recommended ? "text-gray-200" : "text-gray-700"}`}>{price}</span>
                 <span className={`text-sm mr-2 ${recommended ? 'text-gray-400' : 'text-gray-500'}`}>{period}</span>
             </div>
-
+            <div
+                className={`mb-8 line-through text-2xl ${recommended ? "text-gray-200" : "text-gray-700"}`}
+            >
+                {oldprice}
+            </div>
             <ul className="space-y-4 mb-8 flex-1">
                 {features.map((feature, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm">
